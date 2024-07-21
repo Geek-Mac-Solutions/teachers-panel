@@ -9,7 +9,8 @@
          </a>
       </div>
       <div class="col-lg-6 col-sm-6 text-center">
-         <h1 class="font-36 fw-bold text-uppercase text-purple">INACTIVE STUDENT DETAILS
+         <h1 class="font-36 fw-bold text-uppercase text-purple">NONE PAID STUDENT DETAILS
+
          </h1>
          <p class="font-18 fw-bold text-purple">GRADE 6 SCIENCE THEORY ENGLISH MEDIUM ABHIMAN SIR
          </p>
@@ -21,6 +22,16 @@
    </div>
 </div>
 <div class="container-fluid py-lg-5 py-3 px-lg-5 ">
+
+
+
+
+
+
+
+
+
+    
    <div class="row middle-hight">
       <div class="table-responsive">
          <table id="inactiveAccountTable" class="table table-striped table-hover table-bordered">

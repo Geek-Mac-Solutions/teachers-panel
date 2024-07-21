@@ -12,6 +12,9 @@ $(document).ready( function () {
     $('#inactiveAccountTable').DataTable();
     $('#studentVideoTbl').DataTable();
     $('#studentVideoSubjectTbl').DataTable();
+    $('#schoolshipTable').DataTable();
+    $('#otherGradeTable').DataTable();
+    $('#freeVideoTable').DataTable();
 
 });
 

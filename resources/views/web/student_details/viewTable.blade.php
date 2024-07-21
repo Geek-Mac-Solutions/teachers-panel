@@ -22,53 +22,55 @@
 </div>
 <div class="container-fluid py-lg-5 py-3 px-lg-5 ">
    <div class="row middle-hight">
-      <div class="table-responsive">
-         <table id="studentDetailsTable" class="table table-striped table-hover table-bordered">
-            <thead class="text-white gradient-background text-uppercase fw-light font-14">
-               <tr>
-                  <th>PHOTO</th>
-                  <th>NAME</th>
-                  <th>STUDENT ID</th>
-                  <th>Gender</th>
-                  <th>PHONE NO</th>
-                  <th>PARENT
-                     PHONE
-                     NO
-                  </th>
-                  <th>BIRTH DAY </th>
-                  <th>ADDRESS</th>
-                  <th>TOWN</th>
-                  <th>DISTRICT</th>
-                  <th>SCHOOL</th>
-                  <th>PAYMENT
-                     DETAILS
-                  </th>
-               </tr>
-            </thead>
-            <tbody class="font-14 align-items-center fw-500">
-               <tr   >
-                  <td><img class="d-block w-50 mx-auto rounded-circle" src="/themes/default/img/place-holder.png" alt="Guru Niwasa LMS"></td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> 
-                     <a href="{{ route('web.student.payment_view') }}" 
-                     class="hvr-shrink text-white  bg-primary font-12 py-2 px-5 justify-content-around rounded-35"
-                        >
-                     View
-                     </a>
-                  </td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
+     <div class="col-12">
+        <div class="table-responsive">
+            <table id="studentDetailsTable" class="table table-striped table-hover table-bordered">
+               <thead class="text-white gradient-background text-uppercase fw-light font-14">
+                  <tr>
+                     <th>PHOTO</th>
+                     <th>NAME</th>
+                     <th>STUDENT ID</th>
+                     <th>Gender</th>
+                     <th>PHONE NO</th>
+                     <th>PARENT
+                        PHONE
+                        NO
+                     </th>
+                     <th>BIRTH DAY </th>
+                     <th>ADDRESS</th>
+                     <th>TOWN</th>
+                     <th>DISTRICT</th>
+                     <th>SCHOOL</th>
+                     <th>PAYMENT
+                        DETAILS
+                     </th>
+                  </tr>
+               </thead>
+               <tbody class="font-14 align-items-center fw-500">
+                  <tr   >
+                     <td><img class="d-block w-50 mx-auto rounded-circle" src="/themes/default/img/place-holder.png" alt="Guru Niwasa LMS"></td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> </td>
+                     <td> 
+                        <a href="{{ route('web.student.payment_view') }}" 
+                        class="hvr-shrink text-white  bg-primary font-12 py-2 px-5 justify-content-around rounded-35"
+                           >
+                        View
+                        </a>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+     </div>
    </div>
 </div>
 </div>

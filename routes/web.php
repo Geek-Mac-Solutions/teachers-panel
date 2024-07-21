@@ -5,6 +5,7 @@ use App\Http\Controllers\Web\ZoomMettingController;
 use App\Http\Controllers\Web\StudentDetailsController;
 use App\Http\Controllers\Web\AnalysisReportController;
 use App\Http\Controllers\Web\StudentVideoController;
+use App\Http\Controllers\Web\StudentApprovalController;
 
 
 use App\Http\Controllers\Web\ClassController;
@@ -147,6 +148,14 @@ Route::get('/video/subject/view', [VideoController::class, 'videoSubjectView'])-
 // StudentVideoController
 Route::get('/student-video', [StudentVideoController::class, 'studentVideo'])->name('web.student_video.view');
 Route::get('/student-video-subject', [StudentVideoController::class, 'studentVideoSubject'])->name('web.student_video.subject');
+
+
+
+// StudentApprovalController
+Route::get('/student-approval', [StudentApprovalController::class, 'studentApproval'])->name('web.student.approval');
+Route::get('/scholarship-details', [StudentApprovalController::class, 'scholarshipdetails'])->name('web.student_video.scholarship');
+Route::get('/other-grade', [StudentApprovalController::class, 'otherGrade'])->name('web.student_video.other_grade');
+Route::get('/free-video-access', [StudentApprovalController::class, 'freeVideo'])->name('web.student_video.free_video');
 
 
 
