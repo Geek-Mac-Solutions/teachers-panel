@@ -5,14 +5,13 @@ namespace App\Http\Controllers\Web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class NoticeBoardController extends Controller
+class StudentVideoController extends Controller
 {
-    //
-    public function noticeBoard()
+    public function studentVideo()
     {
         try{
 
-            return view('web.notice_board.view');
+            return view('web.student_video.view');
 
         }catch(\Exception $exception){
 
@@ -20,11 +19,12 @@ class NoticeBoardController extends Controller
         }
     }
 
-    public function birthdayList()
+
+    public function studentVideoSubject()
     {
         try{
 
-            return view('web.notice_board.birthday_list');
+            return view('web.student_video.video_subject');
 
         }catch(\Exception $exception){
 

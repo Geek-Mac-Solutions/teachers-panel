@@ -238,27 +238,27 @@
          </div>
 
          <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
-            <a href="{{ route('web.student.attendance')}}" class="hvr-shrink w-100">
+            <a href="{{ route('web.notice.birthday_lis')}}" class="hvr-shrink w-100">
                <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
                   <div class="col-1  py-1">
-                     <i class="fa-solid fa-clipboard-user fs-3 text-white "></i>
+                     <i class="fa-solid fa-cake-candles fs-3 text-white "></i>
                   </div>
                   <div class="col-10 py-1 ps-4">
-                     <p class="font-13 text-white fw-500">Attendance</p>
-                     <p class="font-13 text-white fw-500">දරුවාගේ පැමිණිම</p>
+                     <p class="font-13 text-white fw-500">BIRTHDAYS  </p>
                   </div>
                </div>
             </a>
          </div>
+       
          <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
-            <a href="{{ route('web.teacher.subject')}}" class="hvr-shrink w-100">
+            <a href="{{ route('web.student_video.view')}}" class="hvr-shrink w-100">
                <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
                   <div class="col-1  py-1">
-                     <i class="fa-solid fa-chalkboard-user fs-3 text-white "></i>
+                     <i class="fa-solid fa-video fs-3 text-white "></i>
                   </div>
                   <div class="col-10 py-1 ps-4">
-                     <p class="font-13 text-white fw-500">Teachers & New Subjects</p>
-                     <p class="font-13 text-white fw-500">ගුරුවරුන් සහ නව විෂයන් </p>
+                     <p class="font-13 text-white fw-500">STUDENT VIDEOS
+                   </p>
                   </div>
                </div>
             </a>
@@ -271,8 +271,7 @@
                      <i class="fa-solid fa-money-bill fs-3 text-white "></i>
                   </div>
                   <div class="col-10 py-1 ps-4">
-                     <p class="font-13 text-white fw-500">Class Fees</p>
-                     <p class="font-13 text-white fw-500">පන්ති ගාස්තු</p>
+                     <p class="font-13 text-white fw-500">Class Fees </p>
                   </div>
                </div>
             </a>

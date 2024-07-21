@@ -4,6 +4,7 @@ use App\Http\Controllers\Web\Home\HomeController;
 use App\Http\Controllers\Web\ZoomMettingController;
 use App\Http\Controllers\Web\StudentDetailsController;
 use App\Http\Controllers\Web\AnalysisReportController;
+use App\Http\Controllers\Web\StudentVideoController;
 
 
 use App\Http\Controllers\Web\ClassController;
@@ -114,6 +115,43 @@ Route::get('/student-non-paid', [StudentDetailsController::class, 'nonPaid'])->n
 
 
 
+// profile
+
+Route::get('/my-profile', [ProfileController::class, 'myProfile'])->name('web.profile');
+
+// TIME TABLES
+Route::get('/time-table', [TimeTableController::class, 'timeTable'])->name('web.time.table');
+
+
+
+
+
+// NoticeBoardController
+Route::get('/notice-board', [NoticeBoardController::class, 'noticeBoard'])->name('web.notice.board');
+Route::get('/birthday-list', [NoticeBoardController::class, 'birthdayList'])->name('web.notice.birthday_lis');
+
+
+
+
+
+// VideoController
+
+Route::get('/video/monthly/view', [VideoController::class, 'videoMonthlyView'])->name('web.video.monthly');
+Route::get('/video/monthly/list', [VideoController::class, 'videoMonthlyListView'])->name('web.video.list.monthly');
+Route::get('/video/monthly/set', [VideoController::class, 'videoMonthlySet'])->name('web.video.set.monthly');
+
+Route::get('/video/subject/view', [VideoController::class, 'videoSubjectView'])->name('web.video.subject');
+
+
+
+// StudentVideoController
+Route::get('/student-video', [StudentVideoController::class, 'studentVideo'])->name('web.student_video.view');
+Route::get('/student-video-subject', [StudentVideoController::class, 'studentVideoSubject'])->name('web.student_video.subject');
+
+
+
+
+
 
 
 
@@ -124,11 +162,6 @@ Route::get('/student-non-paid', [StudentDetailsController::class, 'nonPaid'])->n
 Route::get('/class/view', [ClassController::class, 'classView'])->name('web.class.view');
 
 
-Route::get('/video/monthly/view', [VideoController::class, 'videoMonthlyView'])->name('web.video.monthly');
-Route::get('/video/monthly/list', [VideoController::class, 'videoMonthlyListView'])->name('web.video.list.monthly');
-Route::get('/video/monthly/set', [VideoController::class, 'videoMonthlySet'])->name('web.video.set.monthly');
-
-Route::get('/video/subject/view', [VideoController::class, 'videoSubjectView'])->name('web.video.subject');
 
 
 // Fees
@@ -145,9 +178,7 @@ Route::get('/payment-history-list', [PaymentHistoryController::class, 'paymentHi
 
 
 
-// profile
 
-Route::get('/my-profile', [ProfileController::class, 'myProfile'])->name('web.profile');
 
 
 // Class Tutes And Books
@@ -173,14 +204,11 @@ Route::get('/analysis-report', [AnalysisReportController::class, 'analysisReport
 
 
 
-// TIME TABLES
-Route::get('/time-table', [TimeTableController::class, 'timeTable'])->name('web.time.table');
 
 
 
-// Class paper
-Route::get('/class-paper', [ClassPaperController::class, 'classPaper'])->name('web.class.paper');
-Route::get('/class-paper-view', [ClassPaperController::class, 'classPaperMonthly'])->name('web.paper.view');
+
+
 Route::get('/class-paper-open', [ClassPaperController::class, 'classPaperView'])->name('web.paper.open');
 
 
@@ -198,9 +226,6 @@ Route::get('/review-teacher', [StudentTalentController::class, 'reviweTeacher'])
 Route::get('/term-test', [StudentTalentController::class, 'termTest'])->name('web.term.test');
 
 
-
-// NoticeBoardController
-Route::get('/notice-board', [NoticeBoardController::class, 'noticeBoard'])->name('web.notice.board');
 
 
 
