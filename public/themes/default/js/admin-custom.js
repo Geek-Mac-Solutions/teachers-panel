@@ -10,6 +10,11 @@ $(document).ready( function () {
     $('#onlineExamTable').DataTable();
     $('#studentDetailsTable').DataTable();
     $('#inactiveAccountTable').DataTable();
+    $('#studentVideoTbl').DataTable();
+    $('#studentVideoSubjectTbl').DataTable();
+    $('#schoolshipTable').DataTable();
+    $('#otherGradeTable').DataTable();
+    $('#freeVideoTable').DataTable();
 
 });
 

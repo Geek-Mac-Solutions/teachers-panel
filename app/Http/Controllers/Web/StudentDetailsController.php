@@ -60,6 +60,18 @@ class StudentDetailsController extends Controller
     }
 
 
+    public function nonPaid()
+    {
+        try{
+
+            return view('web.student_details.non_paid_account');
+
+        }catch(\Exception $exception){
+
+            return;
+        }
+    }
+
 
 
 
