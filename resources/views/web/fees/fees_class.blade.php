@@ -21,114 +21,37 @@ use Carbon\Carbon;
    <div class="row  justify-content-center middle-hight">
       <div class="col-12">
          <div class="row justify-content-end">
-            <div class="col-lg-2 text-center pb-3">
-               <a href="{{ route('web.subject-cart')}}"
-                  class=" w-100 text-uppercase font-14 text-white rounded-pill py-2 px-3 bg-success fw-500 align-items-center text-white hvr-shrink"><i
-                  class="fa-solid fa-cart-shopping me-2"></i> View CART
-               </a>
+            <div class="col-lg-3 text-center pb-3">
+               <span
+                  class=" w-100 text-uppercase font-14 text-white rounded-pill 
+                  py-2 px-3 bg-success fw-500 align-items-center text-white hvr-shrink"> STUDENT COUNT 500
+
+               </span>
             </div>
          </div>
       </div>
       <div class="col-lg-3 col-sm-4 mb-3 align-items-center">
          <div class="border-new pt-3 pb-5 px-3 rounded-35 bg-white text-center">
-            <div class="row justify-content-center pt-2 pb-3">
-               <div class="col-6">
-                  <img class="d-block w-100 rounded-circle" src="{{asset('themes/default/img/place-holder.png')}}"
-                     alt="Guru Niwasa LMS">
-               </div>
-            </div>
-            <p class="font-14 fw-500 text-dark text-start">Grade - <span class="fw-bolder">Grade 6</span></p>
-            <p class="font-14 fw-500 text-dark text-start">Subject - <span class="fw-bolder"> Mathematics Theory |
-               English
-               Medium | Shehan Sir
-               </span>
-            </p>
-            <p class="font-14 fw-500 text-dark text-start">Month - <span class="fw-bolder text-dark"> January
-               </span>
-            </p>
-            <p class="font-18 fw-bolder text-success text-center pt-4">LKR 1200.00
+          
+            <p class="font-20 fw-bolder text-dark text-center pt-4">GRADE 6 SCIENCE
+                THEORY ENGLISH
+                MEDIUM
+                
             </p>
             <div class="row justify-content-center pt-4">
-               <div class="col-lg-10 text-white ">
-                  <a href="{{ route('web.video.set.monthly') }}"
-                     class=" w-100 text-uppercase font-14 text-white rounded-pill py-2 px-3 bg-success fw-500 align-items-center text-white hvr-shrink">
-                  ADD TO CART
+               <div class="col-lg-12 text-white ">
+                  <a href="{{ route('web.fees.month_fees') }}"
+                     class=" w-100 text-uppercase font-13 text-white rounded-pill py-2 px-3 
+                     bg-info fw-500 align-items-center text-white hvr-shrink">
+                     PAID STUDENT COUNT 150
+
                   </a>
                </div>
             </div>
          </div>
       </div>
-      <div class="col-lg-3 col-sm-4 mb-3 align-items-center">
-        <div class="border-new pt-3 pb-5 px-3 rounded-35 bg-white text-center">
-           <div class="row justify-content-center pt-2 pb-3">
-              <div class="col-6">
-                 <img class="d-block w-100 rounded-circle" src="{{asset('themes/default/img/place-holder.png')}}"
-                    alt="Guru Niwasa LMS">
-              </div>
-           </div>
-           <p class="font-14 fw-500 text-dark text-start">Grade - <span class="fw-bolder">Grade 6</span></p>
-           <p class="font-14 fw-500 text-dark text-start">Subject - <span class="fw-bolder"> Mathematics Theory |
-              English
-              Medium | Shehan Sir
-              </span>
-           </p>
-           <p class="font-14 fw-500 text-dark text-start">Month - <span class="fw-bolder text-dark"> January
-              </span>
-           </p>
-           <p class="font-18 fw-bolder text-success text-center pt-4">LKR 1200.00
-           </p>
-           <div class="row justify-content-center pt-4">
-              <div class="col-lg-10 text-white ">
-                 <a href="{{ route('web.video.set.monthly') }}"
-                    class=" w-100 text-uppercase font-14 text-white rounded-pill py-2 px-3 bg-success fw-500 align-items-center text-white hvr-shrink">
-                 ADD TO CART
-                 </a>
-              </div>
-           </div>
-        </div>
-     </div>
-     <div class="col-lg-3 col-sm-4 mb-3 align-items-center">
-        <div class="border-new pt-3 pb-5 px-3 rounded-35 bg-white text-center">
-           <div class="row justify-content-center pt-2 pb-3">
-              <div class="col-6">
-                 <img class="d-block w-100 rounded-circle" src="{{asset('themes/default/img/place-holder.png')}}"
-                    alt="Guru Niwasa LMS">
-              </div>
-           </div>
-           <p class="font-14 fw-500 text-dark text-start">Grade - <span class="fw-bolder">Grade 6</span></p>
-           <p class="font-14 fw-500 text-dark text-start">Subject - <span class="fw-bolder"> Mathematics Theory |
-              English
-              Medium | Shehan Sir
-              </span>
-           </p>
-           <p class="font-14 fw-500 text-dark text-start">Month - <span class="fw-bolder text-dark"> January
-              </span>
-           </p>
-           <p class="font-18 fw-bolder text-success text-center pt-4">LKR 1200.00
-           </p>
-           <div class="row justify-content-center pt-4">
-              <div class="col-lg-10 text-white ">
-                 <a href="{{ route('web.video.set.monthly') }}"
-                    class=" w-100 text-uppercase font-14 text-white rounded-pill py-2 px-3 bg-success fw-500 align-items-center text-white hvr-shrink">
-                 ADD TO CART
-                 </a>
-              </div>
-           </div>
-        </div>
-     </div>
-     <div class="row justify-content-center ">
-        <div class="col-lg-3 col-10 text-center pt-4">
-            <a href="{{ route('web.payment.month') }}" class=" w-100 text-uppercase font-15  rounded-pill p-3 bg-secondary fw-500 align-items-center text-white hvr-shrink">PAYMENT HISTORY
-            </a>
-        </div>
-
-        <div class="col-lg-3 col-10 text-center pt-4">
-            <a href="{{ route('web.teacher.subject') }}" class=" w-100 text-uppercase font-15  rounded-pill p-3 bg-info fw-500 align-items-center text-dark hvr-shrink">Add New Subject
-            </a>
-        </div>
-      </div>
-
-    </div>
+   
+      
    </div>
 </div>
 @endsection

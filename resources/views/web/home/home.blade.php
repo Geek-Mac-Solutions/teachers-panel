@@ -209,7 +209,7 @@
                </div>
             </a>
          </div>
-        
+
          <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
             <a href="{{ route('web.student.details')}}" class="hvr-shrink w-100">
                <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
@@ -249,7 +249,7 @@
                </div>
             </a>
          </div>
-       
+
          <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
             <a href="{{ route('web.student_video.view')}}" class="hvr-shrink w-100">
                <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
@@ -263,7 +263,7 @@
                </div>
             </a>
          </div>
-       
+
          <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
             <a href="{{ route('web.student.approval') }}" class="hvr-shrink w-100">
                <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
@@ -273,34 +273,6 @@
                   <div class="col-10 py-1 ps-4">
                      <p class="font-13 text-white fw-500">STUDENT APPROVALS
                     </p>
-                  </div>
-               </div>
-            </a>
-         </div>
-
-
-         <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
-            <a href="{{  route('web.fees.view') }}" class="hvr-shrink w-100">
-               <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
-                  <div class="col-1  py-1">
-                     <i class="fa-solid fa-money-bill fs-3 text-white "></i>
-                  </div>
-                  <div class="col-10 py-1 ps-4">
-                     <p class="font-13 text-white fw-500">Class Fees </p>
-                  </div>
-               </div>
-            </a>
-         </div>
-       
-         <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
-            <a href="{{ route('web.analysis.report')}}" class="hvr-shrink w-100">
-               <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
-                  <div class="col-1  py-1">
-                     <i class="fa-solid fa-magnifying-glass-chart fs-3 text-white "></i>
-                  </div>
-                  <div class="col-10 py-1 ps-4">
-                     <p class="font-13 text-white fw-500">Final Analysis Report</p>
-                     <p class="font-13 text-white fw-500">විශ්ලේෂණ වාර්තා</p>
                   </div>
                </div>
             </a>
@@ -318,6 +290,37 @@
                </div>
             </a>
          </div>
+
+         <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
+            <a href="{{  route('web.fees.view') }}" class="hvr-shrink w-100">
+               <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
+                  <div class="col-1  py-1">
+                     <i class="fa-solid fa-money-bill fs-3 text-white "></i>
+                  </div>
+                  <div class="col-10 py-1 ps-4">
+                     <p class="font-13 text-white fw-500">Class Fees </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+
+         <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
+            <a href="{{ route('web.analysis.report')}}" class="hvr-shrink w-100">
+               <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
+                  <div class="col-1  py-1">
+                     <i class="fa-solid fa-file-lines fs-3 text-white "></i>
+                  </div>
+                  <div class="col-10 py-1 ps-4">
+                     <p class="font-13 text-white fw-500">
+
+                        SALARY SLIPS 
+                        
+                     </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+
          <div class="col-lg-3 col-sm-4  col-10  px-3  mb-3 mx-auto">
             <a href="{{  route('web.item-shop') }}" class="hvr-shrink w-100">
                <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
