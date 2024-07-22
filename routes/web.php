@@ -16,15 +16,15 @@ use App\Http\Controllers\Web\ProfileController;
 use App\Http\Controllers\Web\TutesAndBookController;
 use App\Http\Controllers\Web\TimeTableController;
 use App\Http\Controllers\Web\ClassPaperController;
-use App\Http\Controllers\Web\StudentTalentController;
+
 use App\Http\Controllers\Web\NoticeBoardController;
 use App\Http\Controllers\Web\OnlineExamController;
-use App\Http\Controllers\Web\StudentAttendanceController;
+
 use App\Http\Controllers\Web\NoteAndPaperController;
-use App\Http\Controllers\Web\LearningManagementController;
+
 use App\Http\Controllers\Web\ItemShopController;
 
-use App\Http\Controllers\Web\TeacherSubjectController;
+
 use App\Http\Controllers\Web\AuthController;
 use Illuminate\Support\Facades\Route;
 
@@ -214,61 +214,8 @@ Route::get('/analysis-report', [AnalysisReportController::class, 'analysisReport
 
 
 
-
-
-
-
-Route::get('/class-paper-open', [ClassPaperController::class, 'classPaperView'])->name('web.paper.open');
-
-
-// STUDENT TALENTS
-Route::get('/student-talents', [StudentTalentController::class, 'studentTalent'])->name('web.student.talents');
-Route::get('/online-exam-result', [StudentTalentController::class, 'onlineExamResult'])->name('web.online.exam_result');
-Route::get('/paper-answer', [StudentTalentController::class, 'paperAnswer'])->name('web.paper.answer');
-Route::get('/student-certificates', [StudentTalentController::class, 'studentCertificate'])->name('web.student.certificates');
-Route::get('/talent-videos', [StudentTalentController::class, 'talentVideos'])->name('web.talent.videos');
-Route::get('/talent-videos-view', [StudentTalentController::class, 'talentVideosView'])->name('web.talent.videosView');
-Route::get('/talent-videos-lesson', [StudentTalentController::class, 'talentVideosLesson'])->name('web.talent.videosLesson');
-Route::get('/my-talent-videos', [StudentTalentController::class, 'myTalentVideos'])->name('web.my_talent');
-Route::get('/other-talent-videos', [StudentTalentController::class, 'otherTalentVideos'])->name('web.other_talent');
-Route::get('/review-teacher', [StudentTalentController::class, 'reviweTeacher'])->name('web.review.teacher');
-Route::get('/term-test', [StudentTalentController::class, 'termTest'])->name('web.term.test');
-
-
-
-
-
-
-// Student Attendance ATTENDANCE
-
-Route::get('/student-attendance', [StudentAttendanceController::class, 'studentAttendance'])->name('web.student.attendance');
-Route::get('/student-attendance-view', [StudentAttendanceController::class, 'studentAttendanceMonthly'])->name('web.student_attendance.view');
-Route::get('/student-attendance-check', [StudentAttendanceController::class, 'studentAttendanceCheck'])->name('web.student_attendance.check');
-
-// Learning Management
-Route::get('/learning-management', [LearningManagementController::class, 'learningManagement'])->name('web.learning.management');
-Route::get('/time-management', [LearningManagementController::class, 'timeManagement'])->name('web.time.management');
-Route::get('/time-management/list-table', [LearningManagementController::class, 'timeManagementTable'])->name('web.time-mgt.list-table');
-Route::get('/time-management/list-report', [LearningManagementController::class, 'timeManagementReport'])->name('web.time-mgt.list-report');
-Route::get('/time-management/revising-plane', [LearningManagementController::class, 'revisingPlane'])->name('web.revising.plane');
-
-
 // ItemShopController
 Route::get('/item-shop', [ItemShopController::class, 'itemShop'])->name('web.item-shop');
-Route::get('/single-item', [ItemShopController::class, 'singleItem'])->name('web.single-item');
-Route::get('/order-history', [ItemShopController::class, 'orderHistory'])->name('web.order-history');
-Route::get('/order-cart', [ItemShopController::class, 'orderCart'])->name('web.order-cart');
-
-
-
-
-
-
-
-
-// Teacher Subject
-Route::get('/teacher-subject', [TeacherSubjectController::class, 'teacherSubject'])->name('web.teacher.subject');
-Route::get('/request-subject',[TeacherSubjectController::class, 'requestSubject'])->name('web.teacher.request-subject');
 
 
 
