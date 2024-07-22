@@ -4,6 +4,7 @@ use App\Http\Controllers\Web\Home\HomeController;
 use App\Http\Controllers\Web\ZoomMettingController;
 use App\Http\Controllers\Web\StudentDetailsController;
 use App\Http\Controllers\Web\AnalysisReportController;
+use App\Http\Controllers\Web\MonthlyIncomeController;
 use App\Http\Controllers\Web\StudentVideoController;
 use App\Http\Controllers\Web\StudentApprovalController;
 
@@ -208,6 +209,10 @@ Route::get('/add-questions', [OnlineExamController::class, 'addQuestions'])->nam
 
 Route::get('/analysis', [AnalysisReportController::class, 'analysis'])->name('web.analysis.view');
 Route::get('/analysis-report', [AnalysisReportController::class, 'analysisReport'])->name('web.analysis.report');
+
+
+Route::get('/monthly-income', [MonthlyIncomeController::class, 'monthlyIncome'])->name('web.monthly.income');
+Route::get('/monthly-income-view', [MonthlyIncomeController::class, 'monthlyIncomeView'])->name('web.monthly.view');
 
 
 
