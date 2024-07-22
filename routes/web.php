@@ -161,6 +161,11 @@ Route::get('/free-video-access', [StudentApprovalController::class, 'freeVideo']
 
 
 
+// Fees
+Route::get('/fees/view', [FeesController::class, 'feesView'])->name('web.fees.view');
+Route::get('/fees/class', [FeesController::class, 'feesClass'])->name('web.fees.class');
+Route::get('/fees/month-view', [FeesController::class, 'monthFees'])->name('web.fees.month_fees');
+ 
 
 
 
@@ -173,11 +178,6 @@ Route::get('/class/view', [ClassController::class, 'classView'])->name('web.clas
 
 
 
-// Fees
-Route::get('/fees/view', [FeesController::class, 'feesView'])->name('web.fees.view');
-Route::get('/fees/class', [FeesController::class, 'feesClass'])->name('web.fees.class');
-Route::get('/fees/subject-cart', [FeesController::class, 'subjectCart'])->name('web.fees.subject_cart');
-Route::get('/subject-cart', [FeesController::class, 'subjectCart'])->name('web.subject-cart');
 
 
 // PaymentHistory

@@ -15,6 +15,7 @@ $(document).ready( function () {
     $('#schoolshipTable').DataTable();
     $('#otherGradeTable').DataTable();
     $('#freeVideoTable').DataTable();
+    $('#subjectFeesList').DataTable();
 
 });
 

@@ -20,6 +20,7 @@ class FeesController extends Controller
     }
     public function feesClass()
     {
+     
         try{
 
             return view('web.fees.fees_class');
@@ -30,11 +31,11 @@ class FeesController extends Controller
         }
     }
 
-    public function subjectCart()
+    public function monthFees()
     {
         try{
 
-            return view('web.fees.subject_cart');
+            return view('web.fees.fees_subject');
 
         }catch(\Exception $exception){
 
