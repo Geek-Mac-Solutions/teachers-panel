@@ -20,46 +20,7 @@ class ItemShopController extends Controller
     }
 
 
-    public function orderHistory()
-    {
-        try{
-
-            return view('web.item-shop.order-history');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-    public function singleItem()
-    {
-        try{
-
-            return view('web.item-shop.single-item');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-    public function orderCart()
-    {
-        try{
-
-            return view('web.item-shop.order-cart');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-
+  
 
 
 
