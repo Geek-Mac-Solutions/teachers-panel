@@ -31,91 +31,7 @@ class AuthController extends Controller
             return;
         }
     }
-    public function registerView()
-    {
-        try{
-
-            return view('web.auth.register');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-    public function registerStep1()
-    {
-        try{
-
-            return view('web.auth.register-step1');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-    
-    public function registerStep2()
-    {
-        try{
-
-            return view('web.auth.register-step2');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-      
-    public function registerStep3()
-    {
-        try{
-
-            return view('web.auth.register-step3');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-
-    public function registerStep4()
-    {
-        try{
-
-            return view('web.auth.register-step4');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-
-    
-    public function registerStep5()
-    {
-        try{
-
-            return view('web.auth.register-step5');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
-
-
-
-
+   
 
 
 
@@ -139,7 +55,7 @@ class AuthController extends Controller
     }
 
 
-    
+
 
 
 
