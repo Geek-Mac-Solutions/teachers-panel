@@ -47,12 +47,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', [AuthController::class, 'homeView'])->name('web.home');
 Route::get('/login', [AuthController::class, 'loginView'])->name('web.login');
 Route::get('/forgot_password', [AuthController::class, 'forgotPassword'])->name('web.forgot_password');
-Route::get('/register', [AuthController::class, 'registerView'])->name('web.register');
-Route::get('/register-step1', [AuthController::class, 'registerStep1'])->name('web.register.step1');
-Route::get('/register-step2', [AuthController::class, 'registerStep2'])->name('web.register.step2');
-Route::get('/register-step3', [AuthController::class, 'registerStep3'])->name('web.register.step3');
-Route::get('/register-step4', [AuthController::class, 'registerStep4'])->name('web.register.step4');
-Route::get('/register-step5', [AuthController::class, 'registerStep5'])->name('web.register.step5');
+
 
 
 

@@ -8,17 +8,12 @@
                alt="Guru Niwasa LMS">
          </div>
          <div class="col-12 pt-2 text-center">
-            <h1 class="font-27 fw-bold  text-purple   pt-1">
-               Welcome to Guru Niwasa LMS - <?php echo date('Y'); ?>
+            <h1 class="font-24 fw-bold  text-purple   pt-1">
+                ❤ We are Family ❤
             </h1>
-            <p class="font-16 fw-500  text-dark   pt-1">Log In to Guru Niwasa Account!
-            </p>
-            <p class="font-12 fw-bolder  text-dark text-start  pt-2">
-               💻📱 You can log into the LMS account using your phone number and password by visiting <a href="https://guruniwasa2024.lk" target="_blank">www.guruniwasa2024.lk</a> from any device that can connect to the Internet.
-            </p>
-            <p class="font-12 fw-bolder  text-dark text-start  pt-2">
-               💻📱 අන්තර්ජාලය හා සම්බන්ධ විය හැකි ඕනෑම device එකකින් <a href="https://guruniwasa2024.lk" target="_blank">www.guruniwasa2024.lk</a> වෙත පිවිස ඔබගේ phone number එක සහ password එක යොදා LMS ගිණුමට Log විය හැක.
-            </p>
+            <h2 class="font-18 fw-bold  text-purple   pt-1">
+                Log In | Teacher
+            </h2>
          </div>
          <div class="col-12 pt-4">
             <div class="row justify-content-center">
@@ -40,14 +35,14 @@
                                  Login
                                  </a>
                               </div>
-                              <div class="col-lg-4 col-sm-5 col-6">
+                              {{-- <div class="col-lg-4 col-sm-5 col-6">
                                  <a href="{{ route('web.forgot_password')}}" class="text-danger font-13 fw-500"> Forgot Password.</a>
                               </div>
                               <div class="col-12 pt-2 text-center">
                                  <a href=" " class="hvr-shrink text-white bg-success  py-2 px-5 justify-content-around rounded-35 mt-3 font-13"  >
                                  New Register Student
                                  </a>
-                              </div>
+                              </div> --}}
                            </div>
                         </form>
                      </div>
@@ -56,7 +51,7 @@
             </div>
          </div>
 
-         <div class="col-12 pt-3">
+         {{-- <div class="col-12 pt-3">
             <p class="font-13 fw-bolder  text-dark text-start  pt-2">✅ Only students who have created an account at the Guru Niwasa Institute can login using their phone number and password.
              </p>
              <p class="font-13 fw-bolder  text-dark text-start  pt-2">✅ දුරකථන අංකය සහ මුරපදය යොදා login විය හැක්කේ ගුරු නිවස අයතනයේ ගිණුමක් සෑදු දරුවන් හට පමණි.
@@ -65,7 +60,7 @@
             </p>
             <p class="font-13 fw-bolder  text-dark text-start  pt-2">🆕 ගුරු නිවස ආයතනයේ ගිණුමක් සාදා ගැනීමට New Student Register බොත්තම click කර එහි දැක්වෙන පියවර 5 අනුගමනය කරන්න.
             </p>
-         </div>
+         </div> --}}
       </div>
    </div>
 </div>
